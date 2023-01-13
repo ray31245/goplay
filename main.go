@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -15,6 +14,6 @@ func warp() {
 }
 
 func thefunc() {
-	fmt.Println("123")
-	// panic("")
+	// fmt.Println("123")
+	panic("")
 }
